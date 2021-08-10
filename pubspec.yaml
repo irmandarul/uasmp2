@@ -1,0 +1,27 @@
+name: project
+description: A new Flutter project.
+version: 1.0.0+1
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+    
+  http: ^0.12.2 
+  flutter_icons: ^1.1.0
+  shared_preferences: ^0.5.10
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/images/pria.png
+    - assets/images/wanita.png
+    - assets/images/logo.png
+
